@@ -1,0 +1,32 @@
+test_list_int (test.Test01_AddContact.test_list_int)
+*** Test01 *** Calling the 'add_contact' method passing a positional argument equal to [['Richard','Stallman']], a keyword argument first_name equal to 'Steve', and a keyword argument last_name equal to 'Jobs' should result in a contact list [['Richard','Stallman'],['Steve','Jobs']] *** ... 
+ok
+test_list_int (test.Test02_ModifyContact.test_list_int)
+*** Test02 *** Calling the 'modify_contact' method passing a positional argument equal to [['Richard','Stallman'],['Bill','Gates']], a keyword argument first_name equal to 'Steve', a keyword argument last_name equal to 'Jobs', and a keyword argument index equal to '1' should result in a contact list [['Richard','Stallman'],['Steve','Jobs']] *** ... 
+ok
+test_list_int (test.Test03_ModifyContact.test_list_int)
+*** Test03 *** Calling the 'modify_contact' method passing a positional argument equal to [['Richard','Stallman'], a keyword argument first_name equal to 'Steve', a keyword argument last_name equal to 'Jobs', and a keyword argument index equal to '5' should result in a contact list [['Richard','Stallman']] and a return value of False *** ... 
+ok
+test_list_int (test.Test04_DeleteContact.test_list_int)
+*** Test04 *** Calling the 'delete_contact' method passing a positional argument equal to [['Richard','Stallman'],['Bill','Gates'],['Steve','Jobs']], and a keyword argument index equal to '1' should result in a contact list [['Richard','Stallman'],['Steve','Jobs']] *** ... 
+ok
+test_list_int (test.Test05_DeleteContact.test_list_int)
+*** Test05 *** Calling the 'delete_contact' method passing a positional argument equal to [['Richard','Stallman'],['Steve','Jobs']], and a keyword argument index equal to '5' should result in a contact list [['Richard','Stallman'],['Steve','Jobs']] and a return value of False *** ... 
+ok
+test_list_int (test.Test06_SortContacts.test_list_int)
+*** Test06 *** Calling the 'sort_contacts' method passing a positional argument equal to [['Richard','Stallman'],['Bill','Gates'],['Steve','Jobs']], and a keyword argument column equal to '0' should result in a contact list [['Bill','Gates'], ['Richard', 'Stallman'], ['Steve', 'Jobs']] *** ... 
+ok
+test_list_int (test.Test07_SortContacts.test_list_int)
+*** Test07 *** Calling the 'sort_contacts' method passing a positional argument equal to [['Richard','Stallman'],['Bill','Gates'],['Steve','Jobs']], and a keyword argument column equal to '1' should result in a contact list [['Bill', 'Gates'], ['Steve', 'Jobs'], ['Richard', 'Stallman']] *** ... 
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK
+
+
+
+
+
+
